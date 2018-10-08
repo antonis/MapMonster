@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE20A0A11C95B4AB00C61495 /* GeoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20A0A01C95B4AB00C61495 /* GeoHelper.m */; };
+		AE20A0A41C95E58B00C61495 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = AE20A0A31C95E58B00C61495 /* Utils.m */; };
+		AE401EA81C9A0501000A9CD8 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE401EA71C9A0501000A9CD8 /* MenuViewController.m */; };
+		AE443E861CFB32AD006BE2E5 /* WikipediaExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = AE443E851CFB32AD006BE2E5 /* WikipediaExtractor.m */; };
+		AE9609711C8C9482002430B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9609701C8C9482002430B9 /* main.m */; };
+		AE9609741C8C9482002430B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9609731C8C9482002430B9 /* AppDelegate.m */; };
+		AE9609771C8C9482002430B9 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9609761C8C9482002430B9 /* GameViewController.m */; };
+		AE96097A1C8C9482002430B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9609781C8C9482002430B9 /* Main.storyboard */; };
+		AE96097C1C8C9482002430B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE96097B1C8C9482002430B9 /* Assets.xcassets */; };
+		AE96098A1C8C9482002430B9 /* GeoGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9609891C8C9482002430B9 /* GeoGameTests.m */; };
+		AE9609951C8C9482002430B9 /* GeoGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9609941C8C9482002430B9 /* GeoGameUITests.m */; };
+		AEA102631CA0AF220054BC95 /* GameStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA102621CA0AF220054BC95 /* GameStatus.m */; };
+		AED28A771CA9CF980095B9FB /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = AED28A761CA9CF980095B9FB /* Place.m */; };
+		AEE51E961C9B491D00169B69 /* Pods-GeoGame-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEE51E951C9B491D00169B69 /* Pods-GeoGame-acknowledgements.plist */; };
+		AEE51E981C9B55BF00169B69 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AEE51E971C9B55BF00169B69 /* Settings.bundle */; };
+		AEE51E9E1C9B5F3E00169B69 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE51E9C1C9B5F3E00169B69 /* Localizable.strings */; };
+		AEE51EA01C9B697500169B69 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = AEE51E9F1C9B697500169B69 /* sounds */; };
+		AEE7E44E1C9496F70094B458 /* geodata in Resources */ = {isa = PBXBuildFile; fileRef = AEE7E44D1C9496F70094B458 /* geodata */; };
+		DBF14272DE7F5A178C2C641E /* libPods-GeoGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B80D7BB863341A2FB02310 /* libPods-GeoGame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE9609861C8C9482002430B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE9609641C8C9481002430B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE96096B1C8C9481002430B9;
+			remoteInfo = GeoGame;
+		};
+		AE9609911C8C9482002430B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE9609641C8C9481002430B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE96096B1C8C9481002430B9;
+			remoteInfo = GeoGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE8D5DCF4066E2A43ECBDD8 /* Pods-GeoGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoGame/Pods-GeoGame.release.xcconfig"; sourceTree = "<group>"; };
+		AE20A09F1C95B4AB00C61495 /* GeoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoHelper.h; sourceTree = "<group>"; };
+		AE20A0A01C95B4AB00C61495 /* GeoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoHelper.m; sourceTree = "<group>"; };
+		AE20A0A21C95E58B00C61495 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		AE20A0A31C95E58B00C61495 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		AE401EA61C9A0501000A9CD8 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		AE401EA71C9A0501000A9CD8 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		AE443E841CFB32AD006BE2E5 /* WikipediaExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikipediaExtractor.h; sourceTree = "<group>"; };
+		AE443E851CFB32AD006BE2E5 /* WikipediaExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikipediaExtractor.m; sourceTree = "<group>"; };
+		AE50DE1F1CA3342000898F50 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AE96096C1C8C9481002430B9 /* GeoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9609701C8C9482002430B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE9609721C8C9482002430B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE9609731C8C9482002430B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE9609751C8C9482002430B9 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		AE9609761C8C9482002430B9 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		AE9609791C8C9482002430B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE96097B1C8C9482002430B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE9609801C8C9482002430B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9609851C8C9482002430B9 /* GeoGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9609891C8C9482002430B9 /* GeoGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoGameTests.m; sourceTree = "<group>"; };
+		AE96098B1C8C9482002430B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9609901C8C9482002430B9 /* GeoGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9609941C8C9482002430B9 /* GeoGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoGameUITests.m; sourceTree = "<group>"; };
+		AE9609961C8C9482002430B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA102611CA0AF220054BC95 /* GameStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStatus.h; sourceTree = "<group>"; };
+		AEA102621CA0AF220054BC95 /* GameStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStatus.m; sourceTree = "<group>"; };
+		AED28A751CA9CF980095B9FB /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		AED28A761CA9CF980095B9FB /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		AEE51E951C9B491D00169B69 /* Pods-GeoGame-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Pods-GeoGame-acknowledgements.plist"; path = "../Pods/Target Support Files/Pods-GeoGame/Pods-GeoGame-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEE51E971C9B55BF00169B69 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		AEE51E9D1C9B5F3E00169B69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AEE51E9F1C9B697500169B69 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
+		AEE7E44D1C9496F70094B458 /* geodata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = geodata; sourceTree = "<group>"; };
+		E7B80D7BB863341A2FB02310 /* libPods-GeoGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeoGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD285864592019E52DB6807A /* Pods-GeoGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoGame/Pods-GeoGame.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE9609691C8C9481002430B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF14272DE7F5A178C2C641E /* libPods-GeoGame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9609821C8C9482002430B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE96098D1C8C9482002430B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7951618DC12C6A67978B0C41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B80D7BB863341A2FB02310 /* libPods-GeoGame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8335A1CA480A38F1C4839500 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD285864592019E52DB6807A /* Pods-GeoGame.debug.xcconfig */,
+				1AE8D5DCF4066E2A43ECBDD8 /* Pods-GeoGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE9609631C8C9481002430B9 = {
+			isa = PBXGroup;
+			children = (
+				AE50DE1F1CA3342000898F50 /* README.md */,
+				AE96096E1C8C9481002430B9 /* GeoGame */,
+				AE9609881C8C9482002430B9 /* GeoGameTests */,
+				AE9609931C8C9482002430B9 /* GeoGameUITests */,
+				AE96096D1C8C9481002430B9 /* Products */,
+				8335A1CA480A38F1C4839500 /* Pods */,
+				7951618DC12C6A67978B0C41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE96096D1C8C9481002430B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE96096C1C8C9481002430B9 /* GeoGame.app */,
+				AE9609851C8C9482002430B9 /* GeoGameTests.xctest */,
+				AE9609901C8C9482002430B9 /* GeoGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE96096E1C8C9481002430B9 /* GeoGame */ = {
+			isa = PBXGroup;
+			children = (
+				AE9609721C8C9482002430B9 /* AppDelegate.h */,
+				AE9609731C8C9482002430B9 /* AppDelegate.m */,
+				AE401EA61C9A0501000A9CD8 /* MenuViewController.h */,
+				AE401EA71C9A0501000A9CD8 /* MenuViewController.m */,
+				AE9609751C8C9482002430B9 /* GameViewController.h */,
+				AE9609761C8C9482002430B9 /* GameViewController.m */,
+				AEE51E9B1C9B5DF200169B69 /* Helpers */,
+				AE96096F1C8C9481002430B9 /* Supporting Files */,
+				AEE51E9A1C9B5D8D00169B69 /* Resources */,
+				AEE51E991C9B5D7900169B69 /* Interface */,
+			);
+			path = GeoGame;
+			sourceTree = "<group>";
+		};
+		AE96096F1C8C9481002430B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9609701C8C9482002430B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE9609881C8C9482002430B9 /* GeoGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE9609891C8C9482002430B9 /* GeoGameTests.m */,
+				AE96098B1C8C9482002430B9 /* Info.plist */,
+			);
+			path = GeoGameTests;
+			sourceTree = "<group>";
+		};
+		AE9609931C8C9482002430B9 /* GeoGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE9609941C8C9482002430B9 /* GeoGameUITests.m */,
+				AE9609961C8C9482002430B9 /* Info.plist */,
+			);
+			path = GeoGameUITests;
+			sourceTree = "<group>";
+		};
+		AEE51E991C9B5D7900169B69 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				AE96097B1C8C9482002430B9 /* Assets.xcassets */,
+				AE9609781C8C9482002430B9 /* Main.storyboard */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		AEE51E9A1C9B5D8D00169B69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEE7E44D1C9496F70094B458 /* geodata */,
+				AEE51E9F1C9B697500169B69 /* sounds */,
+				AE9609801C8C9482002430B9 /* Info.plist */,
+				AEE51E9C1C9B5F3E00169B69 /* Localizable.strings */,
+				AEE51E951C9B491D00169B69 /* Pods-GeoGame-acknowledgements.plist */,
+				AEE51E971C9B55BF00169B69 /* Settings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AEE51E9B1C9B5DF200169B69 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AEA102611CA0AF220054BC95 /* GameStatus.h */,
+				AEA102621CA0AF220054BC95 /* GameStatus.m */,
+				AE20A0A21C95E58B00C61495 /* Utils.h */,
+				AE20A0A31C95E58B00C61495 /* Utils.m */,
+				AE20A09F1C95B4AB00C61495 /* GeoHelper.h */,
+				AE20A0A01C95B4AB00C61495 /* GeoHelper.m */,
+				AED28A751CA9CF980095B9FB /* Place.h */,
+				AED28A761CA9CF980095B9FB /* Place.m */,
+				AE443E841CFB32AD006BE2E5 /* WikipediaExtractor.h */,
+				AE443E851CFB32AD006BE2E5 /* WikipediaExtractor.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE96096B1C8C9481002430B9 /* GeoGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9609991C8C9482002430B9 /* Build configuration list for PBXNativeTarget "GeoGame" */;
+			buildPhases = (
+				25230D59333E8AF55DD96CDD /* 📦 Check Pods Manifest.lock */,
+				AE9609681C8C9481002430B9 /* Sources */,
+				AE9609691C8C9481002430B9 /* Frameworks */,
+				AE96096A1C8C9481002430B9 /* Resources */,
+				6CF4D268E57E3C2C24D31E11 /* 📦 Embed Pods Frameworks */,
+				A96C848A36871DB8C625A70A /* 📦 Copy Pods Resources */,
+				E820828487F26BB029A3734F /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoGame;
+			productName = GeoGame;
+			productReference = AE96096C1C8C9481002430B9 /* GeoGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE9609841C8C9482002430B9 /* GeoGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE96099C1C8C9482002430B9 /* Build configuration list for PBXNativeTarget "GeoGameTests" */;
+			buildPhases = (
+				AE9609811C8C9482002430B9 /* Sources */,
+				AE9609821C8C9482002430B9 /* Frameworks */,
+				AE9609831C8C9482002430B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE9609871C8C9482002430B9 /* PBXTargetDependency */,
+			);
+			name = GeoGameTests;
+			productName = GeoGameTests;
+			productReference = AE9609851C8C9482002430B9 /* GeoGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE96098F1C8C9482002430B9 /* GeoGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE96099F1C8C9482002430B9 /* Build configuration list for PBXNativeTarget "GeoGameUITests" */;
+			buildPhases = (
+				AE96098C1C8C9482002430B9 /* Sources */,
+				AE96098D1C8C9482002430B9 /* Frameworks */,
+				AE96098E1C8C9482002430B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE9609921C8C9482002430B9 /* PBXTargetDependency */,
+			);
+			name = GeoGameUITests;
+			productName = GeoGameUITests;
+			productReference = AE9609901C8C9482002430B9 /* GeoGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE9609641C8C9481002430B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Antonis Lilis";
+				TargetAttributes = {
+					AE96096B1C8C9481002430B9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3SUHPM76X7;
+					};
+					AE9609841C8C9482002430B9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AE96096B1C8C9481002430B9;
+					};
+					AE96098F1C8C9482002430B9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AE96096B1C8C9481002430B9;
+					};
+				};
+			};
+			buildConfigurationList = AE9609671C8C9481002430B9 /* Build configuration list for PBXProject "GeoGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE9609631C8C9481002430B9;
+			productRefGroup = AE96096D1C8C9481002430B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE96096B1C8C9481002430B9 /* GeoGame */,
+				AE9609841C8C9482002430B9 /* GeoGameTests */,
+				AE96098F1C8C9482002430B9 /* GeoGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE96096A1C8C9481002430B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE7E44E1C9496F70094B458 /* geodata in Resources */,
+				AEE51EA01C9B697500169B69 /* sounds in Resources */,
+				AE96097C1C8C9482002430B9 /* Assets.xcassets in Resources */,
+				AEE51E9E1C9B5F3E00169B69 /* Localizable.strings in Resources */,
+				AEE51E961C9B491D00169B69 /* Pods-GeoGame-acknowledgements.plist in Resources */,
+				AEE51E981C9B55BF00169B69 /* Settings.bundle in Resources */,
+				AE96097A1C8C9482002430B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9609831C8C9482002430B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE96098E1C8C9482002430B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25230D59333E8AF55DD96CDD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CF4D268E57E3C2C24D31E11 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoGame/Pods-GeoGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96C848A36871DB8C625A70A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoGame/Pods-GeoGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E820828487F26BB029A3734F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoGame/Pods-GeoGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE9609681C8C9481002430B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9609771C8C9482002430B9 /* GameViewController.m in Sources */,
+				AE9609741C8C9482002430B9 /* AppDelegate.m in Sources */,
+				AE20A0A11C95B4AB00C61495 /* GeoHelper.m in Sources */,
+				AED28A771CA9CF980095B9FB /* Place.m in Sources */,
+				AE401EA81C9A0501000A9CD8 /* MenuViewController.m in Sources */,
+				AE443E861CFB32AD006BE2E5 /* WikipediaExtractor.m in Sources */,
+				AEA102631CA0AF220054BC95 /* GameStatus.m in Sources */,
+				AE9609711C8C9482002430B9 /* main.m in Sources */,
+				AE20A0A41C95E58B00C61495 /* Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9609811C8C9482002430B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE96098A1C8C9482002430B9 /* GeoGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE96098C1C8C9482002430B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9609951C8C9482002430B9 /* GeoGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE9609871C8C9482002430B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE96096B1C8C9481002430B9 /* GeoGame */;
+			targetProxy = AE9609861C8C9482002430B9 /* PBXContainerItemProxy */;
+		};
+		AE9609921C8C9482002430B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE96096B1C8C9481002430B9 /* GeoGame */;
+			targetProxy = AE9609911C8C9482002430B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE9609781C8C9482002430B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE9609791C8C9482002430B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEE51E9C1C9B5F3E00169B69 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE51E9D1C9B5F3E00169B69 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE9609971C8C9482002430B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "fed4e008-f691-466d-8c57-399bbf11107a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE9609981C8C9482002430B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "fed4e008-f691-466d-8c57-399bbf11107a";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE96099A1C8C9482002430B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD285864592019E52DB6807A /* Pods-GeoGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Antonios Lilis (3SUHPM76X7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Antonios Lilis (3SUHPM76X7)";
+				INFOPLIST_FILE = GeoGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.euapps.GeoGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fa89b7b1-7fff-4ec0-ba56-be02bd34f119";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE96099B1C8C9482002430B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE8D5DCF4066E2A43ECBDD8 /* Pods-GeoGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Antonios Lilis (3SUHPM76X7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Antonios Lilis (3SUHPM76X7)";
+				INFOPLIST_FILE = GeoGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.euapps.GeoGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c46c117f-bd32-43e0-9ede-419a94d7b178";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AE96099D1C8C9482002430B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeoGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.euapps.GeoGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoGame.app/GeoGame";
+			};
+			name = Debug;
+		};
+		AE96099E1C8C9482002430B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeoGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.euapps.GeoGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoGame.app/GeoGame";
+			};
+			name = Release;
+		};
+		AE9609A01C8C9482002430B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeoGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.euapps.GeoGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeoGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE9609A11C8C9482002430B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeoGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.euapps.GeoGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeoGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE9609671C8C9481002430B9 /* Build configuration list for PBXProject "GeoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9609971C8C9482002430B9 /* Debug */,
+				AE9609981C8C9482002430B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9609991C8C9482002430B9 /* Build configuration list for PBXNativeTarget "GeoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE96099A1C8C9482002430B9 /* Debug */,
+				AE96099B1C8C9482002430B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE96099C1C8C9482002430B9 /* Build configuration list for PBXNativeTarget "GeoGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE96099D1C8C9482002430B9 /* Debug */,
+				AE96099E1C8C9482002430B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE96099F1C8C9482002430B9 /* Build configuration list for PBXNativeTarget "GeoGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9609A01C8C9482002430B9 /* Debug */,
+				AE9609A11C8C9482002430B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE9609641C8C9481002430B9 /* Project object */;
+}
