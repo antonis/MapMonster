@@ -2,9 +2,9 @@
 
 Map Monster is a quiz game using Google Streetview to transfer the user to a random place. The user should guess the place between two available options.
 
-## Game Design Notes ##
+![Screenshot](GeoGame/Assets.xcassets/AppIcon.appiconset/Icon60%403x.png)
 
-Version: 0.2
+## Game Design Notes ##
 
 ### Objectives ###
 
