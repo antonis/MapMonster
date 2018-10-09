@@ -10,8 +10,6 @@ Map Monster is a quiz game using Google Streetview to transfer the user to a ran
 
 * The game should be “easy to learn but hard to master"
 * Players experience Beginner’s Luck when they start the early levels
-* Reward with when completing achievements
-* "time out" when the user looses ( & buy back in)
 
 ### Values ###
 
